@@ -1,0 +1,27 @@
+{
+  "name": "tweet-regenerator-eatable-coyote",
+  "version": "1.0.0",
+  "description": "Tweet Regenerator",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisabronwyn/tweet-regenerator-eatable-coyote.git"
+  },
+  "keywords": [
+    "tweet"
+  ],
+  "author": "lisabronwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisabronwyn/tweet-regenerator-eatable-coyote/issues"
+  },
+  "homepage": "https://github.com/lisabronwyn/tweet-regenerator-eatable-coyote#readme",
+  "dependencies": {
+    "routes-js": "^0.1.8",
+    "twit": "^2.2.5"
+  }
+}
