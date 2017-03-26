@@ -1,6 +1,6 @@
 ## Description
 
-A web application that will allow the developer-user to collect their tweets and add them to a database of "evergreen" (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually. 
+A web application that will allow the developer-user to collect their tweets and add them to a database of "evergreen" (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually.
 
 This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of [MeetEdgar](https://meetedgar.com/), a social media management tool.
 
@@ -15,15 +15,15 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 
 ## Specifications
 
-- [ ] Use the Twitter API to access a user's last ten Twitter posts.
-- [ ] Store past tweets in a database for future access.
-- [ ] View database of past tweets in an attractive yet simple UI.
-- [ ] Re-Tweet posts in database of past tweets randomly, manually, or on a timer.
+- [x] Use the Twitter API to access a user's last ten Twitter posts.
+- [x] Store past tweets in a database for future access.
+- [x] View database of past tweets in an attractive yet simple UI.
+- [x] Re-Tweet posts in database of past tweets randomly, manually, or on a timer.
 
 ## Stretch Goals
 
 - [ ] Retrieve past tweets from Twitter feed either in batches (say, the last ten tweets) or automatically as they are being tweeted out.
-- [ ] Edit tweets in, or delete tweets from, database in the UI.
+- [x] Edit tweets in, or delete tweets from, database in the UI.
 - [ ] Store another user's tweets in database by accessing and capturing their Twitter feed.
 - [ ] Re-Tweet posts in database randomly, manually, or automatically on a set timer (i.e., once an hour).
 - [ ] Ability to organize database of past tweets according to categories (use of filters).
@@ -37,10 +37,10 @@ Developers/Learners will get practice working with Twitter's REST APIs on the ba
 
 - UI: Attractive, intuitive user experience: 20 points.
 - Code is readable and well organized: 20 points.
-- Minimally, app should successfully access the Twitter API to retrieve tweet history (20 points); 
-            -store tweets in a database (20 points); 
+- Minimally, app should successfully access the Twitter API to retrieve tweet history (20 points);
+            -store tweets in a database (20 points);
            - and allow user to retweet this content back out (20 points):
-            Total 60 points. 
+            Total 60 points.
 
 ---
 
